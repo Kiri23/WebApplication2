@@ -23,6 +23,7 @@ namespace WebApplication2.Controllers
             using (StreamReader reader = new StreamReader(stream))
             {
                 html = reader.ReadToEnd();
+                var shsh = "DGDGDG";
             }
 
             return Content(html);
